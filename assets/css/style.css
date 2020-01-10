@@ -111,11 +111,18 @@ img { max-width: 100%; }
     transition: all .3s;
 }
 
-.btn-link-1:hover, .btn-link-1:focus, .btn-link-1:active, .btn-link-1:active:focus,
-.btn-link-1.btn-primary:not(:disabled):not(.disabled):active,
+.btn-link-1:hover, .btn-link-1.btn-primary:not(:disabled):not(.disabled):active,
 .btn-link-1.btn-primary:not(:disabled):not(.disabled):active:focus {
 	background: #9b59b6;
 	background: rgba(155, 89, 182, 0.9);
+	outline: 0;
+	color: #fff;
+	box-shadow: none;
+}
+
+.btn-link-1:focus, .btn-link-1:active, .btn-link-1:active:focus {
+	background: #9b59b6;
+	background: rgba(155, 89, 182, 0.7);
 	outline: 0;
 	color: #fff;
 	box-shadow: none;
