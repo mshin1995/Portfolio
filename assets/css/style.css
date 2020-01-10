@@ -101,7 +101,7 @@ img { max-width: 100%; }
 	margin: 0 5px;
 	padding: 0 28px;
 	background: #9b59b6;
-	background: rgba(155, 89, 182, 0.7);
+	background: rgba(184, 157, 199, 0.7);
 	border: 0;
 	font-size: 15px;
     font-weight: 600;
@@ -114,7 +114,7 @@ img { max-width: 100%; }
 .btn-link-1:hover, .btn-link-1.btn-primary:not(:disabled):not(.disabled):active,
 .btn-link-1.btn-primary:not(:disabled):not(.disabled):active:focus {
 	background: #9b59b6;
-	background: rgba(155, 89, 182, 0.9);
+	background: rgba(184, 157, 199, 0.9);
 	outline: 0;
 	color: #fff;
 	box-shadow: none;
@@ -122,7 +122,7 @@ img { max-width: 100%; }
 
 .btn-link-1:focus, .btn-link-1:active, .btn-link-1:active:focus {
 	background: #9b59b6;
-	background: rgba(155, 89, 182, 0.7);
+	background: rgba(184, 157, 199, 0.7);
 	outline: 0;
 	color: #fff;
 	box-shadow: none;
