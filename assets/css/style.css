@@ -299,9 +299,26 @@ img { max-width: 100%; }
 	padding-top: 40px;
 }
 
+/***** Technologies *****/
+
+.technology-wrapper {
+	height: 9rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+  }
+  
+  .technology-wrapper img {
+	max-height: 90px;
+	max-width: 100%;
+	margin-bottom: 8px;
+  }
+
+
 /***** Footer *****/
 
-footer {
+.footer {
 	padding: 40px 0 0 0;
 	background: #444;
 	color: #aaa;
