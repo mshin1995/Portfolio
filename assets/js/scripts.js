@@ -34,13 +34,4 @@ jQuery(document).ready(function() {
 });
 
 
-jQuery(window).load(function() {
-	
-	/*
-		Hidden images
-	*/
-	$(".testimonial-image img").attr("style", "width: auto !important; height: auto !important;");
-	
-});
-
 
