@@ -154,13 +154,6 @@ img { max-width: 100%; }
 	padding-right: 1rem; 
 }
 
-.navbar-brand {
-	width: 136px;
-	background: url(../img/logo.png) left center no-repeat;
-	border: 0;
-	text-indent: -99999px;
-}
-
 /***** Top content *****/
 
 .top-content {
@@ -208,9 +201,6 @@ img { max-width: 100%; }
 	margin-bottom: 20px;
 }
 
-.about-box-text a { border-bottom: 1px dashed #9b59b6; }
-.about-box-text a:hover, .about-us-box-text a:focus { border: 0; }
-
 .about-box-img img {
 	border-radius: 4px;
 }
@@ -251,13 +241,12 @@ img { max-width: 100%; }
 	color: #ccc;
 	-o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
 }
-.project-box h3:hover i { padding-left: 15px; }
-
-.project-container .section-bottom-button {
-	padding-top: 40px;
+.project-box h3:hover i { 
+	padding-left: 15px; 
 }
 
-/***** About *****/
+
+/***** Modal *****/
 
 .modal-text {
 	text-align: left;
@@ -289,8 +278,14 @@ footer {
 	text-align: left;
 }
 
-.footer-left a { color: #ddd; border-bottom: 1px dashed #ddd; }
-.footer-left a:hover, .footer-left a:focus { color: #ddd; border: 0; }
+.footer-left a { 
+	color: #ddd; 
+	border-bottom: 1px dashed #ddd; 
+}
+
+.footer-left a:hover, .footer-left a:focus { 
+	color: #ddd; border: 0; 
+}
 
 .footer-right {
 	text-align: right;
@@ -301,7 +296,9 @@ footer {
     font-size: 32px;
     color: #aaa;
 }
-.footer-right a:hover, .footer-right a:focus { color: #eee; }
+.footer-right a:hover, .footer-right a:focus { 
+	color: #eee; 
+}
 
 .footer-bottom {
 	padding-bottom: 25px;
@@ -314,4 +311,6 @@ footer {
     line-height: 40px;
 }
 
-.footer-bottom a:hover, .footer-bottom a:focus { color: #888; }
+.footer-bottom a:hover, .footer-bottom a:focus { 
+	color: #888; 
+}
