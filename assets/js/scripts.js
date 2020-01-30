@@ -11,6 +11,11 @@ function scroll_to(clicked_link, nav_height) {
 	}
 }
 
+window.addEventListener("load", function(){
+	const loader = document.querySelector(".loader");
+	loader.className += " hidden";
+});
+
 jQuery(document).ready(function() {
 	
 	$('a.scroll-link').on('click', function(e) {
