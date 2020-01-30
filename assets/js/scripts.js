@@ -24,7 +24,7 @@ jQuery(document).ready(function() {
 		$('nav').toggleClass('navbar-no-bg');
 	});
 	
-    $('.top-content').backstretch("assets/img/backgrounds/1.jpg");
+    
     
     /*
         Wow

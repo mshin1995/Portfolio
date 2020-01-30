@@ -157,7 +157,11 @@ img { max-width: 100%; }
 /***** Top content *****/
 
 .top-content {
-    padding: 210px 0;
+	padding: 210px 0;
+	background-image: url(../img/backgrounds/1.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
 }
 
 .top-content .text {
