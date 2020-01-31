@@ -110,7 +110,7 @@ img { max-width: 100%; }
 	border-bottom: 1px dashed #ccc;
 }
 
-/***** Spinner *****/
+/***** Loader *****/
 
 .loader {
 	height: 100%;
@@ -130,8 +130,7 @@ img { max-width: 100%; }
 	-webkit-animation: fadeOut 1s;
 	-moz-animation: fadeOut 1s;
 	-o-animation: fadeOut 1s;
-	-webkit-animation: fadeOut 1s;
-	-o-animation: fadeOut 1s;
+	-ms-animation: fadeOut 1s;
 	animation-fill-mode: forwards;
 }
 
