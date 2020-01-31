@@ -11,11 +11,6 @@ function scroll_to(clicked_link, nav_height) {
 	}
 }
 
-window.addEventListener("load", function(){
-	const loader = document.querySelector(".loader");
-	loader.className += " hidden";
-});
-
 jQuery(document).ready(function() {
 	
 	$('a.scroll-link').on('click', function(e) {
@@ -26,6 +21,11 @@ jQuery(document).ready(function() {
 
 	$('.top-content .text').waypoint(function() {
 		$('nav').toggleClass('navbar-no-bg');
+	});
+
+	$('.top-content').load('index.html', function() {
+		const loader = document.querySelector(".loader");
+		loader.className += " hidden";
 	});
     
     /*
