@@ -23,10 +23,13 @@ jQuery(document).ready(function() {
 		$('nav').toggleClass('navbar-no-bg');
 	});
 
-	$('.top-content').load('index.html', function() {
-		const loader = document.querySelector(".loader");
-		loader.className += " hidden";
+	$('.top-content').waitForImages({
+		waitForAll: true,
+		finished: function() {
+			$(".loader").fadeOut("fast"); 
+		}
 	});
+    
     
     /*
         Wow
